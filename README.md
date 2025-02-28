@@ -4,7 +4,7 @@ And this is what am going to do.
 
 - Navbar
 - Hero section
-- FYM section
+- GYM section
 - Founders section
 - Footer section
 
