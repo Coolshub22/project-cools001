@@ -8,7 +8,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box; 
-    font-family: var(--font-body);  
+    font-family: var(--font-body);
+}
+body {
+    background-image: url('https://images.pexels.com/photos/952670/pexels-photo-952670.jpeg?auto=compress&cs=tinysrgb&w=600');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white; /* Add this line to set the text color to white */
 }
 h1,h2,h3,h4,h5,h6{
     font-family: var(--font-heading);
@@ -16,7 +23,7 @@ h1,h2,h3,h4,h5,h6{
 /* links */
 a{
     text-decoration: none;
-    color: #333;
+    color:white;
 }
 a:hover{
     color: #ADD8E6;
@@ -34,6 +41,8 @@ a:hover{
 nav .logo img {
     width: 180px; /* Adjust the width as needed */
     height: auto;
+    mix-blend-mode: multiply; /* Add this line to blend the logo with the background */
+    color: white;
 }
 nav ul{
     display: flex;
@@ -70,6 +79,8 @@ nav ul{
 .hero .left-side{
     width: 100%;
     padding-top: 150px;
+    color: white;
+    font-size: 20px;
 
 }
 .right-side img{
@@ -91,11 +102,11 @@ nav ul{
 .main-heading{
     font-size: 50px;
     font-weight: 900;
-    color:black;
+    color:white;
     margin-bottom: 15px
 }
 .description{
-    color: #141414;
+    color:white;
     margin-bottom:15px ;
 }
 .founder{
@@ -106,6 +117,10 @@ display: flex;
     width: 100%;
     gap: 20px;
 
+}
+.founder-info .description{
+    color:white;
+    font-size: 20px;
 }
 .founder img{
     width: 80%;
